@@ -1,0 +1,35 @@
+body {
+    background-color: #006747; 
+    color: #CFC493;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #CFC493;
+    color: #006747;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+h1, h2, h3, p, ul, a {
+    color: #CFC493;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
